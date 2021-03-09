@@ -10,7 +10,6 @@ public class MadspilController {
 
     @GetMapping(value="/")
     public String homePage(){
-
         return "index.html";
     }
 }

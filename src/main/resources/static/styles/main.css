@@ -20,3 +20,14 @@
     border-radius: 10px;
     border: 2px solid black;
 }
+
+.linkimage {
+    height: 40px;
+    width: 40px;
+}
+
+.copyright{
+    color: #529aac;
+    bottom:0;
+    position: fixed;
+}
