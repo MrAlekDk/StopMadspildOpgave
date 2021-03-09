@@ -48,15 +48,15 @@ header ul{
     color: white;
 }
 
-.dropbtn {
-    background-color: #4CAF50;
+.dropdown-login {
+    background-color: darkblue;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
 }
 
-.dropdown {
+.d {
     position: relative;
     display: inline-block;
 }
