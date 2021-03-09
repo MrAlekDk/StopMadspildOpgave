@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
-<head th:replace = "fragments/head">
-    <meta charset="UTF-8">
-    <title>HomePage</title>
-</head>
+<head th:replace = "fragments/head.html(currentPage = 'Homepage')"></head>
 <body>
 <!--
 Box with color, text and image (carousel items)
@@ -12,8 +9,12 @@ Box with color, text and image (carousel items)
 
 <sections>
     <articel>
-        <h2>Madspild i Danmark</h2>
-        <p></p>
+        <h2>Værd at vide om madspild i Danmark</h2>
+        <ul>
+            <li><p>Madspildet i den danske servicesektor udgør 227.000-ton pr. år.
+                Til sammenligning er det samlede madspild fra husholdningerne 261.000-ton pr. år.</p></li>
+            <li><p></p></li>
+        </ul>
     </articel>
 </sections>
 
