@@ -111,5 +111,9 @@ header ul{
 }
 
 .image {
-    flex-basis: 40%
+    flex-basis: 30%;
+    width: 360px;
+    height: 250px;
 }
+
+p{ font-size: 20px;]}
