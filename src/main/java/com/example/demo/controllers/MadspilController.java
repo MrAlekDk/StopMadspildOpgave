@@ -12,4 +12,9 @@ public class MadspilController {
     public String homePage(){
         return "index.html";
     }
+
+    @GetMapping(value="/Info.html")
+    public String infoPage(){
+        return "Info.html";
+    }
 }
