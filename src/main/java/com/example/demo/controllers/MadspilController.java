@@ -17,4 +17,5 @@ public class MadspilController {
     public String infoPage(){
         return "Info.html";
     }
+
 }
