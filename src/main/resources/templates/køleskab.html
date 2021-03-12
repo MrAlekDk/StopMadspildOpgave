@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Hvad har du i køleren?</title>
-</head>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="fragments/head.html"></head>
+<header th:replace = "fragments/header-after-login.html"></header>
 <body>
 <h1>Lav en ret med ingredienserne i dit køleskab</h1>
 <h2>Har du en masse forskelligt i køleskabet, men kan ikke se sammenhængen?
     <br>Udfyld skemaet herunder og få et forslag</br></h2>
-<form action="/#" method="GET">
+<form action="/køleskab-post" method="POST">
 
     <p class="meat">
         <label for="meat">Write a meat ingredient</label>
@@ -49,7 +47,7 @@
         <input type="text" id="other3" placeholder="Write here">
     </p>
 
-    <input type="generate-course" value="Click to get food suggestions">
+    <button type="generate-course">Click to generate suggestions</button>
 
 </form>
 

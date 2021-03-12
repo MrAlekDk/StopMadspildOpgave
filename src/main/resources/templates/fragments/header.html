@@ -1,4 +1,4 @@
-<html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
 <link rel="Stylesheet" href="/styles/main.css">
 <header class="header">
         <div class="logo">
@@ -13,10 +13,10 @@
     </div>
         <nav>
             <ul>
-                <a href="Info.html">Om Madspild</a>
-                <a href="Køleskab.html">Ryd op i køleskabet</a>
-                <a href="kontaktos.html">Mangler der noget?</a>
-                <a href="kontaktos.html">Kontakt os</a>
+                <a th:href="Info.html">Om Madspild</a>
+                <a th:href="@{/køleskab}">Ryd op i køleskabet</a>
+                <a th:href="kontaktos.html">Mangler der noget?</a>
+                <a th:href="kontaktos.html">Kontakt os</a>
             </ul>
         </nav>
 </header>
