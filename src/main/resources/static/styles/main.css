@@ -14,7 +14,7 @@ h1{
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    background-color: deepskyblue;
+    background-color: darkseagreen;
 }
 
 .footer h2{
@@ -56,19 +56,12 @@ h1{
     position: fixed;
 }
 
-.wrapper{
-    width: 1170px;
-    margin: auto;
-}
-
 .header{
-    height: 100px;
     background: darkseagreen;
     width: 100%;
-    z-indek: 12;
     position: fixed;
     text-align: center;
-    margin: 0;
+    top: 0;
     padding: 0;
 }
 
@@ -77,6 +70,7 @@ h1{
     float: left;
     line-height: 100px;
 }
+
 .logo a{
     text-decoration: none;
     font-size: 30px;
@@ -86,13 +80,13 @@ h1{
 
 }
 
-.nav{
+.header nav{
+    width: 30%;
     float: right;
-    line-height: 100px;
 }
 
-.nav a{
-    text-decoration: none;
+.header nav a{
+    text-decoration: underline;
     font-family: bignoodletitling;
     letter-spacing: 4px;
     font-size: 20px;
@@ -102,7 +96,7 @@ h1{
 
 /* Dropdown Button */
 .login-button {
-    background-color: darkblue;
+    background-color: lightsteelblue;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -123,7 +117,6 @@ h1{
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 1px 8px 16px 1px rgba(0,0,0,0.2);
-    z-index: 1;
 }
 
 /* Links inside the dropdown */
@@ -132,6 +125,7 @@ h1{
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    float: left;
 }
 
 /* Change color of dropdown links on hover */
