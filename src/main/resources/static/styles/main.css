@@ -1,12 +1,18 @@
 
 h1{
     font-size: 100px;
+    font-family: "Segoe UI";
 }
 
 .footer{
     display: flex;
     flex-direction: column;
     height: 100px;
+}
+
+.footer h2{
+    font-weight: bold;
+    font-family: "Segoe UI";
 }
 
 .footer li{
@@ -89,4 +95,8 @@ header ul{
 
 .image {
     flex-basis: 40%
+}
+
+p{
+    font-family: "Segoe UI";
 }
