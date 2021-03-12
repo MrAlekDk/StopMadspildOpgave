@@ -7,14 +7,17 @@ h1{
 }
 
 .footer{
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    height: 100px;
+    background-color: deepskyblue;
 }
 
 .footer h2{
+    display: flex;
     font-weight: bold;
     font-family: "Segoe UI";
+    font-size: 40px;
 }
 
 .footer li{
@@ -26,11 +29,25 @@ h1{
 .footer ul{
     display: flex;
     justify-content: space-around;
+    border-radius: 10px;
+}
+
+.linkimage {
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+}
+
+.linkimage:hover{
+    transition: all 700ms ease;
+    height: 70px;
+    width: 70px;
+}
+
+.copyright{
+    color: #529aac;
     bottom:0;
     position: fixed;
-    background-color: #ffffff;
-    border-radius: 10px;
-    border: 2px solid black;
 }
 
 .header{
@@ -101,16 +118,6 @@ header ul{
 .dropdown-login:hover .dropbtn {background-color: #3e8e41;
 }
 
-.linkimage {
-    height: 40px;
-    width: 40px;
-}
-
-.copyright{
-    color: #529aac;
-    bottom:0;
-    position: fixed;
-}
 
 .container {
     display: flex;
