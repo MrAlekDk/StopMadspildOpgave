@@ -1,55 +1,69 @@
-<!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head th:replace="fragments/head.html"></head>
+<link rel="Stylesheet" href="/styles/køleskab.css">
 <header th:replace = "fragments/header-after-login.html"></header>
+
 <body>
 <h1>Lav en ret med ingredienserne i dit køleskab</h1>
 <h2>Har du en masse forskelligt i køleskabet, men kan ikke se sammenhængen?
-    <br>Udfyld skemaet herunder og få et forslag</br></h2>
+    <br>Udfyld skemaet herunder og få et forslag</br>
+</h2>
+<section class="input-form">
 <form action="/køleskab-post" method="POST">
-
-    <p class="meat">
-        <label for="meat">Write a meat ingredient</label>
-        <input type="text" id="meat" placeholder="Write here">
-
-        <label for="meat1">Write a meat ingredient</label>
-        <input type="text" id="meat1" placeholder="Write here">
-
-        <label for="meat2">Write a meat ingredient</label>
-        <input type="text" id="meat2" placeholder="Write here">
-    </p>
 
     <p class="green">
         <label for="green">Write a vegetable ingredients</label>
         <input type="text" id="green" placeholder="Write here">
 
-        <label for="green1">Write a vegetable ingredients</label>
+        <label for="green1">Write a vegetable ingredients
         <input type="text" id="green1" placeholder="Write here">
+        </label>
 
-        <label for="green2">Write a vegetable ingredients</label>
+        <label for="green2">Write a vegetable ingredients
         <input type="text" id="green2" placeholder="Write here">
+        </label>
 
-        <label for="green3">Write a vegetable ingredients</label>
+        <label for="green3">Write a vegetable ingredients
         <input type="text" id="green3" placeholder="Write here">
+        </label>
+    </p>
+
+    <p class="meat">
+        <label for="meat">Write a meat ingredient
+            <input type="text" id="meat" placeholder="Write here">
+        </label>
+
+        <label for="meat1">Write a meat ingredient
+            <input type="text" id="meat1" placeholder="Write here">
+        </label>
+
+        <label for="meat2">Write a meat ingredient
+            <input type="text" id="meat2" placeholder="Write here">
+        </label>
     </p>
 
     <p class="other">
-        <label for="other">Write a ingredient you want to get rid of</label>
+        <label for="other">Write an ingredient you want to get rid of
         <input type="text" id="other" placeholder="Write here">
+        </label>
 
-        <label for="other1">Write a ingredient you want to get rid of</label>
+        <label for="other1">Write an ingredient you want to get rid of
         <input type="text" id="other1" placeholder="Write here">
+        </label>
 
-        <label for="other2">Write a ingredient you want to get rid of</label>
+        <label for="other2">Write an ingredient you want to get rid of
         <input type="text" id="other2" placeholder="Write here">
+        </label>
 
-        <label for="other3">Write a ingredient you want to get rid of</label>
+        <label for="other3">Write an ingredient you want to get rid of
         <input type="text" id="other3" placeholder="Write here">
+        </label>
     </p>
 
     <button type="generate-course">Click to generate suggestions</button>
 
 </form>
 
+</section>
 </body>
 </html>
