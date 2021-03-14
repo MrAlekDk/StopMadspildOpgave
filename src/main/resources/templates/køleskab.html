@@ -1,7 +1,7 @@
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head th:replace="fragments/head.html"></head>
 <link rel="Stylesheet" href="/styles/køleskab.css">
-<header th:replace = "fragments/header-after-login.html"></header>
+<header th:replace = "fragments/header.html"></header>
 
 <body>
 <br>
@@ -12,7 +12,7 @@
 <section class="input-form">
 <form action="/køleskab-post" method="POST">
 
-    <p class="green">
+    <span class="green">
         <label for="green">Skriv en grøntsag
         <input type="text" id="green" placeholder="Skriv her">
         </label>
@@ -28,9 +28,9 @@
         <label for="green3">Skriv en grøntsag
         <input type="text" id="green3" placeholder="Skriv her">
         </label>
-    </p>
+    </span>
 
-    <p class="meat">
+    <span class="meat">
         <label for="meat">Skriv en form for kød
             <input type="text" id="meat" placeholder="Skriv her">
         </label>
@@ -42,9 +42,9 @@
         <label for="meat2">Skriv en form for kød
             <input type="text" id="meat2" placeholder="Skriv her">
         </label>
-    </p>
+    </span>
 
-    <p class="other">
+    <span class="other">
         <label for="other">Skriv en ingrediens du skal af med
         <input type="text" id="other" placeholder="Skriv her">
         </label>
@@ -60,12 +60,12 @@
         <label for="other3">Skriv en ingrediens du skal af med
             <input type="text" id="other3" placeholder="Skriv her">
         </label>
-    </p>
+    </span>
 
-    <button type="generate-course">Click to generate suggestions</button>
+    <button type="generate-course">Klik for forslag</button>
 
 </form>
-
 </section>
+<footer th:replace="fragments/footer.html"></footer>
 </body>
 </html>
