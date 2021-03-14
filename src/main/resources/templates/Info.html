@@ -1,8 +1,10 @@
+<!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <html lang="en">
 <head th:replace = "fragments/head.html(currentPage = 'Info')"></head>
-<header th:replace="fragments/header-after-login.html"></header>
+<header th:replace = "fragments/header.html"></header>
 <body>
+<br>
 <h1>Madspild i Danmark</h1>
 <sections class = container>
     <div class="divContainer"></div>
@@ -12,12 +14,11 @@
             Husholdningernes madspild udgør 260.000 ton pr. år. I servicesektoren er der et årligt madspild på
             227.000 ton, heraf 163.000 ton fra detailhandlen, 29.000 ton fra hoteller og restauranter og 31.000 ton
             fra institutioner og storkøkkener om året. Madspild fra primærproduktionen udgør 100.000 ton pr. år, mens
-            fødevareindustrien står for et årligt madspild på 133.000 ton..</p>
+            fødevareindustrien står for et årligt madspild på 133.000 ton.</p>
     </articel>
     <img class="image" src="images/cirkel.png" alt="statistik">
     <div class="divContainer"></div>
 </sections>
-
 <sections class = container>
     <div class="divContainer"></div>
     <img class="image3" src="images/partner.png" alt="Samarbejdspartnere">
@@ -43,7 +44,6 @@
     </articel>
     <div class="divContainer"></div>
 </sections>
-
 <footer th:replace="fragments/footer.html"></footer>
 </body>
 
