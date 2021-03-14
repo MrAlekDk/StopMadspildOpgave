@@ -17,16 +17,14 @@ h2{
 }
 
 label {
-
     color: orange;
     text-decoration: underline;
     margin-bottom: 20px;
-
 }
 
 label, input{
     display: block;
-
+    font-size: 20px;
 }
 
 .green{
@@ -45,6 +43,7 @@ label, input{
 }
 
 button{
+    float: right;
     font-size: 14px;
     color: #fff;
     background-color: darkseagreen;
@@ -52,6 +51,5 @@ button{
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    position: center;
     margin-top: 20px;
 }
