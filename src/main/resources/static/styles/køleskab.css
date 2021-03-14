@@ -1,0 +1,57 @@
+html{
+    background-color: moccasin;
+}
+
+h1{
+    font-family: Stencil;
+    text-align: center;
+    color: darkgreen;
+    text-decoration: wavy whitesmoke;
+}
+
+h2{
+    font-family: Stencil;
+    text-align: center;
+    color: darkgreen;
+
+}
+
+label {
+
+    color: orange;
+    text-decoration: underline;
+    margin-bottom: 20px;
+
+}
+
+label, input{
+    display: block;
+
+}
+
+.green{
+    float: left;
+    margin-left: 10px;
+}
+
+.meat{
+    float: left;
+    margin-left: 100px;
+}
+
+
+.other{
+    float: right;
+}
+
+button{
+    font-size: 14px;
+    color: #fff;
+    background-color: darkseagreen;
+    display: inline-block;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    position: center;
+    margin-top: 20px;
+}
