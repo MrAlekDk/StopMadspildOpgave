@@ -1,5 +1,6 @@
 
 h1{
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     font-size: 100px;
@@ -59,7 +60,7 @@ h1{
 .header{
     background: darkseagreen;
     width: 100%;
-    position: absolute;
+    position: fixed;
     text-align: center;
     top: 0;
     padding: 0;
@@ -77,12 +78,12 @@ h1{
     font-family: bignoodletitling;
     color: #fff;
     letter-spacing: 5px;
-
 }
 
 .header nav{
     width: 30%;
     float: right;
+
 }
 
 .header nav a{
@@ -92,6 +93,7 @@ h1{
     font-size: 20px;
     margin: 0 10px;
     color: #fff;
+
 }
 
 /* Dropdown Button */
@@ -138,7 +140,6 @@ h1{
 .dropdown-login:hover .dropbtn {background-color: #3e8e41;
 }
 
-
 .container {
     display: flex;
 
@@ -151,6 +152,7 @@ h1{
 }
 
 .image2{
+    margin-top: 100px;
     display: block;
     margin-left: auto;
     margin-right: auto;
