@@ -39,17 +39,20 @@ label, input{
 
 
 .other{
-    float: right;
+    margin-left: 100px;
+    float: left;
 }
 
 button{
-    float: right;
+    bottom:0;
+    position: absolute;
     font-size: 14px;
     color: #fff;
     background-color: darkseagreen;
-    display: inline-block;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     margin-top: 20px;
+    margin-bottom: 275px;
+    right: 15%;
 }
